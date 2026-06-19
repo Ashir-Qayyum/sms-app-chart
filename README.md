@@ -18,5 +18,7 @@ helm install sms-backend sms-app/sms-backend
 
 helm install sms-frontend sms-app/sms-frontend
 
-The frontend is configured to run at port 80, however, port-forwarding can
-be done to access at any different port in local
+The frontend is configured to run at port 80, NodePort is applied, however, 
+I use minikube on docker driver, so I use port-forwarding to access it in local
+
+kubectl port-forward svc/frontend 8080:80 --address 0.0.0.0 &
