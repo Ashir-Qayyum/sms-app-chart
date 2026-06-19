@@ -4,6 +4,8 @@ Cloned from: https://github.com/medinar/full-stack-spring-boot-react.git
 
 To practice creating custom helm repo to deploy SMS App on k8s cluster using helm for hands on poc
 
+Repo hosted at: https://github.com/Ashir-Qayyum/sms-app-chart.git
+
 First add the repo, run:
 
 helm repo add sms-app https://Ashir-Qayyum.github.io/sms-app-chart
